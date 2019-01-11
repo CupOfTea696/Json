@@ -1,0 +1,31 @@
+{
+    "name": "cupoftea/json",
+    "description": "Object Oriented JSON library",
+    "keywords": ["JSON", "library"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Frankie Wittevrongel",
+            "email": "frankie@cupoftea.io"
+        }
+    ],
+    "require": {
+        "cupoftea/package": "^1.4"
+    },
+    "require-dev": {
+        "illuminate/filesystem": "^5.7",
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "CupOfTea\\Support\\": "src/"
+        },
+        "files": ["src/polyfills.php"]
+    },
+    "scripts": {
+        "test": "phpunit --colors=always --testdox"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
