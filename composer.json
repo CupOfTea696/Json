@@ -22,6 +22,7 @@
         },
         "files": ["src/polyfills.php"]
     },
+    "minimum-stability": "stable",
     "scripts": {
         "test": "phpunit --colors=always --testdox"
     },
