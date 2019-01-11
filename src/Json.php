@@ -34,21 +34,21 @@ class Json implements PackageContract
     
     /**
      * Default options for encoding JSON.
-     * 
+     *
      * @var int
      */
     protected static $encodeOptions = 0;
     
     /**
      * Default options for decoding JSON.
-     * 
+     *
      * @var int
      */
     protected static $decodeOptions = 0;
     
     /**
      * Set the default options for encoding JSON.
-     * 
+     *
      * @param  int  $options
      * @return void
      */
@@ -59,7 +59,7 @@ class Json implements PackageContract
     
     /**
      * Encode JSON.
-     * 
+     *
      * @param  mixed  $data
      * @param  int    $options
      * @param  int    $depth
@@ -79,7 +79,7 @@ class Json implements PackageContract
     
     /**
      * Set the default options for decoding JSON.
-     * 
+     *
      * @param  int  $options
      * @return void
      */
@@ -90,7 +90,7 @@ class Json implements PackageContract
     
     /**
      * Decode JSON.
-     * 
+     *
      * @param  string $json
      * @param  bool   $assoc
      * @param  int    $depth
